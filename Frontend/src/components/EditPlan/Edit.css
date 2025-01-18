@@ -1,0 +1,17 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 300px;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.Edit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

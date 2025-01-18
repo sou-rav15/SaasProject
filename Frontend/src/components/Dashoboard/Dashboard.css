@@ -1,0 +1,35 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(204, 201, 201); */
+}
+.nav-box{
+    border: 2px solid red;
+    height: 10vh;
+    width: 60%;
+margin: 1rem 0 1rem 0;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-size: 0.9rem;
+}
+.nav-items ul a{
+    color: rgb(129, 126, 126);
+}
+.nav-items ul a:hover{
+    color: rgba(43, 42, 42, 0.893);
+}
+.content{
+    border: 2px solid black;
+    height: 90vh;
+    width: 98%;
+}

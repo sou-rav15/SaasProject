@@ -1,0 +1,32 @@
+.success-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height:200px;
+    font: 400;
+    font-size: 1rem;
+    /* border:2px solid red; */
+    color: green;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-direction: column;
+}
+.message-cancel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height:200px;
+    font: 400;
+    font-size: 1rem;
+    /* border:2px solid red; */
+    color:red;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-direction: column;
+}
